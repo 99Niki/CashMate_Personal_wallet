@@ -8,15 +8,13 @@ Built with **React Native + Expo** on the frontend and **Node.js + Express + Pos
 ---
 
 ## 🚀 Features
-
-✅ **Cross-Platform** — Works seamlessly on iOS and Android  
-✅ **User Authentication** — Secure email login & verification using Clerk  
-✅ **Transaction Management** — Add, view, and delete income or expenses  
-✅ **Real-Time Balance Summary** — Dynamic updates after each transaction  
-✅ **Cloud Database** — Persistent storage via Neon PostgreSQL  
-✅ **Rate Limiting** — Upstash Redis to prevent abuse  
-✅ **Clean UI** — Intuitive, minimal design with React Native components  
-✅ **Backend API** — RESTful endpoints for transactions and summaries
+🔐 Authentication with email verification using Clerk
+📝 Signup & Login flows with 6-digit email code
+🏠 Home Screen that shows your current balance & past transactions
+➕ Create Screen to add income or expense transactions
+🔄 Pull to refresh functionality from scratch
+🗑️ Delete transactions to update balance
+🚪 Logout to navigate back to login screen
 
 ---
 
@@ -28,9 +26,8 @@ Built with **React Native + Expo** on the frontend and **Node.js + Express + Pos
 | **Backend**               | Node.js, Express                      |
 | **Database**              | PostgreSQL (Neon)                     |
 | **Authentication**        | Clerk                                 |
-| **Rate Limiting**         | Upstash Redis                         |
+| **Rate Limiting**         | Redis                         |
 | **Version Control**       | Git & GitHub                          |
-| **Deployment (optional)** | Render / Vercel / Expo Go             |
 
 ---
 
@@ -47,19 +44,30 @@ cd CashMate_Personal_Wallet
 ```bash
 cd backend
 npm install
+````
 Create a .env file:
-DATABASE_URL=your_neon_postgres_url
-REDIS_URL=your_upstash_redis_url
+```bash
+DATABASE_URL=neon_postgres_url
+REDIS_URL=yupstash_redis_url
 PORT=5001
+````
 Run the server:
+```bash
 npm run dev
 ````
+
 ###3️⃣ Run the mobile app
+
+Create a .env file:
+```bash
+CLERK_PUBLISHABLE_KEY=clerk_publishable_key
+CLERK_SECRET_KEY=clerk_secret_key
+````
 ```bash
 cd ../
 npm install
 npx expo start
-Scan the QR code in Expo Go on your phone to open the app.
+Scan the QR code in Expo Go on phone to open the app
 ````
 ###📱 Screenshots
 | Page | Screenshot |
