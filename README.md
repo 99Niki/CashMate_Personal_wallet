@@ -41,7 +41,7 @@ Built with **React Native + Expo** on the frontend and **Node.js + Express + Pos
 ````bash
 git clone https://github.com/99Niki/CashMate_Personal_Wallet.git
 cd CashMate_Personal_Wallet
-
+````
 
 ###2️⃣ Setup the backend
 ```bash
@@ -53,18 +53,17 @@ REDIS_URL=your_upstash_redis_url
 PORT=5001
 Run the server:
 npm run dev
-
+````
 ###3️⃣ Run the mobile app
 ```bash
 cd ../
 npm install
 npx expo start
 Scan the QR code in Expo Go on your phone to open the app.
-
-###📱 Screenshots
-```bash
-Home screen showing balance and transaction list
-“Add Transaction” form
-Signup / Login with Clerk
-(Add screenshots here once available)
 ````
+###📱 Screenshots
+| ------------------------- | ------------------------------------- |
+| **Home screen showing balance and transaction list**              | React Native (Expo), React Navigation |
+| **“Add Transaction” form**               | Node.js, Express                      |
+| **Signup / Login with Clerk**              | PostgreSQL (Neon)                     |
+
