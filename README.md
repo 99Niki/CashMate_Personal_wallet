@@ -67,22 +67,13 @@ npm install
 npx expo start
 Scan the QR code in Expo Go on phone to open the app
 ````
-###📱 Screenshots
+
+##📱 Screenshots
+
 | Page                                                 | Screenshot                                                                                                                             |
 | ---------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
 | **Signup with Clerk**                                | <img width="300" alt="Signup screen" src="https://github.com/user-attachments/assets/5dd06434-1e34-45c5-bd45-f97289728c76" />          |
 | **Login with Clerk**                                 | <img width="300" alt="Login screen" src="https://github.com/user-attachments/assets/b5566ba1-2d50-4edc-a89e-e9dba7420d08" />           |
 | **Add Transaction form**                             | <img width="300" alt="Add Transaction screen" src="https://github.com/user-attachments/assets/355a4ebc-a1ef-47d5-b447-dd0b6fb68c60" /> |
 | **Home screen showing balance and transaction list** | <img width="300" alt="Home screen" src="https://github.com/user-attachments/assets/39a394a4-1f57-46da-8769-074821934c47" />            |
-
-| Page | Screenshot |
-|------|------------|
-| **Signup with Clerk** |  <img width="1290" height="2796" alt="Simulator Screenshot - iPhone 15 Pro Max - 2025-11-02 at 18 14 53" src="https://github.com/user-attachments/assets/5dd06434-1e34-45c5-bd45-f97289728c76" />
-|
-| **Login with Clerk** | <img width="1290" height="2796" alt="Simulator Screenshot - iPhone 15 Pro Max - 2025-11-02 at 18 15 03" src="https://github.com/user-attachments/assets/b5566ba1-2d50-4edc-a89e-e9dba7420d08" />
-|
-| **Add Transaction” form** | <img width="1290" height="2796" alt="Simulator Screenshot - iPhone 15 Pro Max - 2025-11-02 at 18 16 02" src="https://github.com/user-attachments/assets/355a4ebc-a1ef-47d5-b447-dd0b6fb68c60" />
- |
-| **Home screen showing balance and transaction list** | <img width="1290" height="2796" alt="Simulator Screenshot - iPhone 15 Pro Max - 2025-11-02 at 18 15 36" src="https://github.com/user-attachments/assets/39a394a4-1f57-46da-8769-074821934c47" />
- |
 
