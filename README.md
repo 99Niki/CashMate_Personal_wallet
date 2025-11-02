@@ -38,7 +38,7 @@ git clone https://github.com/99Niki/CashMate_Personal_Wallet.git
 cd CashMate_Personal_Wallet
 ````
 
-###2️⃣ Setup the backend
+### 2️⃣ Setup the backend
 ```bash
 cd backend
 npm install
@@ -54,7 +54,7 @@ Run the server:
 npm run dev
 ````
 
-###3️⃣ Run the mobile app
+### 3️⃣ Run the mobile app
 
 Create a .env file:
 ```bash
