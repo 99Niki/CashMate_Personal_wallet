@@ -67,6 +67,7 @@ npm install
 npx expo start
 Scan the QR code in Expo Go on phone to open the app
 ````
+---
 
 ##📱 Screenshots
 
